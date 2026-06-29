@@ -15,6 +15,7 @@ This repository is dedicated to developing extensions and plugins for the Pi Age
 ## Technology Stack
 - **Primary Language:** TypeScript
 - **Runtime:** Node.js
+- **Package Manager:** pnpm (Always use pnpm for installing and running scripts)
 - **Dependencies:** `@earendil-works/pi-coding-agent` (for extension API interfaces)
 
 ## Standard Folder Structure
@@ -22,7 +23,7 @@ All extensions in this repository should adhere to the following file and folder
 
 ```text
 pi-agent-extension/
-├── package.json         # Extension metadata and npm scripts
+├── package.json         # Extension metadata and pnpm scripts
 ├── tsconfig.json        # TypeScript configuration
 ├── src/
 │   ├── index.ts         # Main entry point (exports the async factory function)

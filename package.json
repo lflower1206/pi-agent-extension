@@ -1,0 +1,29 @@
+{
+  "name": "pi-agent-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lflower1206/pi-agent-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lflower1206/pi-agent-extension/issues"
+  },
+  "homepage": "https://github.com/lflower1206/pi-agent-extension#readme",
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "^0.80.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "typescript": "^6.0.3"
+  }
+}
